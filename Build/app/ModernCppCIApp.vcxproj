@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{11BB590E-FBC5-349F-BA58-F5709C1B67EA}</ProjectGUID>
+    <ProjectGUID>{3A61943E-5408-3B80-8738-474E4E2E6A42}</ProjectGUID>
     <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Atul\Desktop\Transmax\15_July\Build\app\Debug\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Atul\ConsoleApp\Build\app\Debug\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ModernCppCIApp.dir\Debug\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ModernCppCIApp</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Atul\Desktop\Transmax\15_July\Build\app\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Atul\ConsoleApp\Build\app\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ModernCppCIApp.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">ModernCppCIApp</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Atul\Desktop\Transmax\15_July\Build\app\MinSizeRel\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Atul\ConsoleApp\Build\app\MinSizeRel\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ModernCppCIApp.dir\MinSizeRel\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">ModernCppCIApp</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
       <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
       <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Atul\Desktop\Transmax\15_July\Build\app\RelWithDebInfo\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Atul\ConsoleApp\Build\app\RelWithDebInfo\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ModernCppCIApp.dir\RelWithDebInfo\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">ModernCppCIApp</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -119,8 +119,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Atul/Desktop/Transmax/15_July/Build/app/Debug/ModernCppCIApp.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Atul/Desktop/Transmax/15_July/Build/app/Debug/ModernCppCIApp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Atul/ConsoleApp/Build/app/Debug/ModernCppCIApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Atul/ConsoleApp/Build/app/Debug/ModernCppCIApp.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -162,8 +162,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Atul/Desktop/Transmax/15_July/Build/app/Release/ModernCppCIApp.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Atul/Desktop/Transmax/15_July/Build/app/Release/ModernCppCIApp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Atul/ConsoleApp/Build/app/Release/ModernCppCIApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Atul/ConsoleApp/Build/app/Release/ModernCppCIApp.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -205,8 +205,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>No</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Atul/Desktop/Transmax/15_July/Build/app/MinSizeRel/ModernCppCIApp.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Atul/Desktop/Transmax/15_July/Build/app/MinSizeRel/ModernCppCIApp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Atul/ConsoleApp/Build/app/MinSizeRel/ModernCppCIApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Atul/ConsoleApp/Build/app/MinSizeRel/ModernCppCIApp.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -248,8 +248,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>Debug</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Atul/Desktop/Transmax/15_July/Build/app/RelWithDebInfo/ModernCppCIApp.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Atul/Desktop/Transmax/15_July/Build/app/RelWithDebInfo/ModernCppCIApp.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Atul/ConsoleApp/Build/app/RelWithDebInfo/ModernCppCIApp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Atul/ConsoleApp/Build/app/RelWithDebInfo/ModernCppCIApp.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
       <Version></Version>
     </Link>
@@ -261,7 +261,7 @@
     <CustomBuild Include="C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Atul/Desktop/Transmax/15_July/app/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Atul/Desktop/Transmax/15_July -BC:/Users/Atul/Desktop/Transmax/15_July/Build --check-stamp-file C:\Users\Atul\Desktop\Transmax\15_July\Build\app\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Atul/Desktop/Transmax/15_July -BC:/Users/Atul/ConsoleApp/Build --check-stamp-file C:\Users\Atul\ConsoleApp\Build\app\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -270,11 +270,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Atul/Desktop/Transmax/15_July/app/CMakeLists.txt;C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt;C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Atul\Desktop\Transmax\15_July\Build\app\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Atul\ConsoleApp\Build\app\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Atul/Desktop/Transmax/15_July/app/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Atul/Desktop/Transmax/15_July -BC:/Users/Atul/Desktop/Transmax/15_July/Build --check-stamp-file C:\Users\Atul\Desktop\Transmax\15_July\Build\app\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Atul/Desktop/Transmax/15_July -BC:/Users/Atul/ConsoleApp/Build --check-stamp-file C:\Users\Atul\ConsoleApp\Build\app\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -283,11 +283,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Atul/Desktop/Transmax/15_July/app/CMakeLists.txt;C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt;C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Atul\Desktop\Transmax\15_July\Build\app\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Atul\ConsoleApp\Build\app\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Atul/Desktop/Transmax/15_July/app/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Atul/Desktop/Transmax/15_July -BC:/Users/Atul/Desktop/Transmax/15_July/Build --check-stamp-file C:\Users\Atul\Desktop\Transmax\15_July\Build\app\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Atul/Desktop/Transmax/15_July -BC:/Users/Atul/ConsoleApp/Build --check-stamp-file C:\Users\Atul\ConsoleApp\Build\app\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -296,11 +296,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Atul/Desktop/Transmax/15_July/app/CMakeLists.txt;C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt;C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Atul\Desktop\Transmax\15_July\Build\app\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Atul\ConsoleApp\Build\app\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Atul/Desktop/Transmax/15_July/app/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Atul/Desktop/Transmax/15_July -BC:/Users/Atul/Desktop/Transmax/15_July/Build --check-stamp-file C:\Users\Atul\Desktop\Transmax\15_July\Build\app\CMakeFiles\generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Atul/Desktop/Transmax/15_July -BC:/Users/Atul/ConsoleApp/Build --check-stamp-file C:\Users\Atul\ConsoleApp\Build\app\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -309,7 +309,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Atul/Desktop/Transmax/15_July/app/CMakeLists.txt;C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt;C:\Users\Atul\Desktop\Transmax\15_July\app\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Atul\Desktop\Transmax\15_July\Build\app\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Atul\ConsoleApp\Build\app\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -317,11 +317,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\Atul\Desktop\Transmax\15_July\app\src\main.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:/Users/Atul/Desktop/Transmax/15_July/Build/ZERO_CHECK.vcxproj">
-      <Project>79958B52-DCF1-3FCD-B867-DE74D9234330</Project>
+    <ProjectReference Include="C:/Users/Atul/ConsoleApp/Build/ZERO_CHECK.vcxproj">
+      <Project>E5FE38FA-C7E9-3C59-8EF8-D07257759940</Project>
     </ProjectReference>
-    <ProjectReference Include="C:/Users/Atul/Desktop/Transmax/15_July/Build/lib/ModernCppCILib.vcxproj">
-      <Project>D7370740-7664-344D-8E25-16758A22C4E9</Project>
+    <ProjectReference Include="C:/Users/Atul/ConsoleApp/Build/lib/ModernCppCILib.vcxproj">
+      <Project>2FF5980D-7402-3885-A56C-2DD7D8DCFBCD</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -9,9 +9,9 @@ The output was:
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 15-07-2017 15:52:01.
+Build started 15-07-2017 18:10:08.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
@@ -22,7 +22,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\3.6.2\CompilerIdC\.\CompilerIdC.exe
+  CompilerIdC.vcxproj -> C:\Users\Atul\ConsoleApp\Build\CMakeFiles\3.6.2\CompilerIdC\.\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -30,20 +30,20 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\3.6.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.66
+Time Elapsed 00:00:02.51
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/3.6.2/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "C:/Users/Atul/ConsoleApp/Build/CMakeFiles/3.6.2/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -55,9 +55,9 @@ The output was:
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 15-07-2017 15:52:04.
+Build started 15-07-2017 18:10:11.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
@@ -68,7 +68,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\3.6.2\CompilerIdCXX\.\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> C:\Users\Atul\ConsoleApp\Build\CMakeFiles\3.6.2\CompilerIdCXX\.\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -76,221 +76,221 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\3.6.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.83
+Time Elapsed 00:00:02.39
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/3.6.2/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/Atul/ConsoleApp/Build/CMakeFiles/3.6.2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_afb44.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_20196.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 15-07-2017 15:52:08.
+Build started 15-07-2017 18:10:14.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_afb44.vcxproj" on node 1 (default targets).
+Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_20196.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_afb44.dir\Debug\".
-  Creating directory "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_afb44.dir\Debug\cmTC_afb44.tlog\".
+  Creating directory "cmTC_20196.dir\Debug\".
+  Creating directory "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_20196.dir\Debug\cmTC_20196.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_afb44.dir\Debug\cmTC_afb44.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_20196.dir\Debug\cmTC_20196.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afb44.dir\Debug\\" /Fd"cmTC_afb44.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\testCCompiler.c
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20196.dir\Debug\\" /Fd"cmTC_20196.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\testCCompiler.c
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afb44.dir\Debug\\" /Fd"cmTC_afb44.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\testCCompiler.c
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20196.dir\Debug\\" /Fd"cmTC_20196.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\testCCompiler.c
   
   testCCompiler.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_afb44.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_afb44.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_afb44.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_afb44.dir\Debug\testCCompiler.obj
-  cmTC_afb44.vcxproj -> C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_afb44.exe
-  cmTC_afb44.vcxproj -> C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_afb44.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_20196.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_20196.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_20196.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_20196.dir\Debug\testCCompiler.obj
+  cmTC_20196.vcxproj -> C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_20196.exe
+  cmTC_20196.vcxproj -> C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_20196.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_afb44.dir\Debug\cmTC_afb44.tlog\unsuccessfulbuild".
-  Touching "cmTC_afb44.dir\Debug\cmTC_afb44.tlog\cmTC_afb44.lastbuildstate".
-Done Building Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_afb44.vcxproj" (default targets).
+  Deleting file "cmTC_20196.dir\Debug\cmTC_20196.tlog\unsuccessfulbuild".
+  Touching "cmTC_20196.dir\Debug\cmTC_20196.tlog\cmTC_20196.lastbuildstate".
+Done Building Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_20196.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.74
+Time Elapsed 00:00:02.31
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_af22f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9a74c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 15-07-2017 15:52:12.
+Build started 15-07-2017 18:10:17.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_af22f.vcxproj" on node 1 (default targets).
+Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_9a74c.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_af22f.dir\Debug\".
-  Creating directory "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_af22f.dir\Debug\cmTC_af22f.tlog\".
+  Creating directory "cmTC_9a74c.dir\Debug\".
+  Creating directory "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9a74c.dir\Debug\cmTC_9a74c.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_af22f.dir\Debug\cmTC_af22f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_9a74c.dir\Debug\cmTC_9a74c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af22f.dir\Debug\\" /Fd"cmTC_af22f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a74c.dir\Debug\\" /Fd"cmTC_9a74c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af22f.dir\Debug\\" /Fd"cmTC_af22f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a74c.dir\Debug\\" /Fd"cmTC_9a74c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
   
   CMakeCCompilerABI.c
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_af22f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_af22f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_af22f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_af22f.dir\Debug\CMakeCCompilerABI.obj
-  cmTC_af22f.vcxproj -> C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_af22f.exe
-  cmTC_af22f.vcxproj -> C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_af22f.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_9a74c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_9a74c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_9a74c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9a74c.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_9a74c.vcxproj -> C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_9a74c.exe
+  cmTC_9a74c.vcxproj -> C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_9a74c.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_af22f.dir\Debug\cmTC_af22f.tlog\unsuccessfulbuild".
-  Touching "cmTC_af22f.dir\Debug\cmTC_af22f.tlog\cmTC_af22f.lastbuildstate".
-Done Building Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_af22f.vcxproj" (default targets).
+  Deleting file "cmTC_9a74c.dir\Debug\cmTC_9a74c.tlog\unsuccessfulbuild".
+  Touching "cmTC_9a74c.dir\Debug\cmTC_9a74c.tlog\cmTC_9a74c.lastbuildstate".
+Done Building Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_9a74c.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.94
+Time Elapsed 00:00:02.27
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c10cb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_27263.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 15-07-2017 15:52:16.
+Build started 15-07-2017 18:10:20.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_c10cb.vcxproj" on node 1 (default targets).
+Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_27263.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_c10cb.dir\Debug\".
-  Creating directory "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_c10cb.dir\Debug\cmTC_c10cb.tlog\".
+  Creating directory "cmTC_27263.dir\Debug\".
+  Creating directory "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_27263.dir\Debug\cmTC_27263.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_c10cb.dir\Debug\cmTC_c10cb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_27263.dir\Debug\cmTC_27263.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c10cb.dir\Debug\\" /Fd"cmTC_c10cb.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_27263.dir\Debug\\" /Fd"cmTC_27263.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c10cb.dir\Debug\\" /Fd"cmTC_c10cb.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_27263.dir\Debug\\" /Fd"cmTC_27263.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
   
   testCXXCompiler.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_c10cb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_c10cb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_c10cb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c10cb.dir\Debug\testCXXCompiler.obj
-  cmTC_c10cb.vcxproj -> C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_c10cb.exe
-  cmTC_c10cb.vcxproj -> C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_c10cb.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_27263.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_27263.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_27263.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_27263.dir\Debug\testCXXCompiler.obj
+  cmTC_27263.vcxproj -> C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_27263.exe
+  cmTC_27263.vcxproj -> C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_27263.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_c10cb.dir\Debug\cmTC_c10cb.tlog\unsuccessfulbuild".
-  Touching "cmTC_c10cb.dir\Debug\cmTC_c10cb.tlog\cmTC_c10cb.lastbuildstate".
-Done Building Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_c10cb.vcxproj" (default targets).
+  Deleting file "cmTC_27263.dir\Debug\cmTC_27263.tlog\unsuccessfulbuild".
+  Touching "cmTC_27263.dir\Debug\cmTC_27263.tlog\cmTC_27263.lastbuildstate".
+Done Building Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_27263.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.84
+Time Elapsed 00:00:02.33
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ecb13.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_21a2a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 15-07-2017 15:52:19.
+Build started 15-07-2017 18:10:23.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_ecb13.vcxproj" on node 1 (default targets).
+Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_21a2a.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_ecb13.dir\Debug\".
-  Creating directory "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_ecb13.dir\Debug\cmTC_ecb13.tlog\".
+  Creating directory "cmTC_21a2a.dir\Debug\".
+  Creating directory "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_21a2a.dir\Debug\cmTC_21a2a.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_ecb13.dir\Debug\cmTC_ecb13.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_21a2a.dir\Debug\cmTC_21a2a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ecb13.dir\Debug\\" /Fd"cmTC_ecb13.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21a2a.dir\Debug\\" /Fd"cmTC_21a2a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ecb13.dir\Debug\\" /Fd"cmTC_ecb13.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_21a2a.dir\Debug\\" /Fd"cmTC_21a2a.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
   
   CMakeCXXCompilerABI.cpp
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_ecb13.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_ecb13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_ecb13.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ecb13.dir\Debug\CMakeCXXCompilerABI.obj
-  cmTC_ecb13.vcxproj -> C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_ecb13.exe
-  cmTC_ecb13.vcxproj -> C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_ecb13.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_21a2a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_21a2a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_21a2a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_21a2a.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_21a2a.vcxproj -> C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_21a2a.exe
+  cmTC_21a2a.vcxproj -> C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_21a2a.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_ecb13.dir\Debug\cmTC_ecb13.tlog\unsuccessfulbuild".
-  Touching "cmTC_ecb13.dir\Debug\cmTC_ecb13.tlog\cmTC_ecb13.lastbuildstate".
-Done Building Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_ecb13.vcxproj" (default targets).
+  Deleting file "cmTC_21a2a.dir\Debug\cmTC_21a2a.tlog\unsuccessfulbuild".
+  Touching "cmTC_21a2a.dir\Debug\cmTC_21a2a.tlog\cmTC_21a2a.lastbuildstate".
+Done Building Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_21a2a.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.98
+Time Elapsed 00:00:02.37
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c2702.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e2523.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
 Microsoft (R) Build Engine version 14.0.24720.0
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 15-07-2017 15:52:23.
+Build started 15-07-2017 18:10:26.
 The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)" does not exist in the project, and will be ignored.
-Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_c2702.vcxproj" on node 1 (default targets).
+Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_e2523.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creating directory "cmTC_c2702.dir\Debug\".
-  Creating directory "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\".
-  Creating directory "cmTC_c2702.dir\Debug\cmTC_c2702.tlog\".
+  Creating directory "cmTC_e2523.dir\Debug\".
+  Creating directory "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_e2523.dir\Debug\cmTC_e2523.tlog\".
 InitializeBuildStatus:
-  Creating "cmTC_c2702.dir\Debug\cmTC_c2702.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  Creating "cmTC_e2523.dir\Debug\cmTC_e2523.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c2702.dir\Debug\\" /Fd"cmTC_c2702.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\feature_tests.cxx
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e2523.dir\Debug\\" /Fd"cmTC_e2523.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Atul\ConsoleApp\Build\CMakeFiles\feature_tests.cxx
   Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23506 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c2702.dir\Debug\\" /Fd"cmTC_c2702.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\feature_tests.cxx
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_e2523.dir\Debug\\" /Fd"cmTC_e2523.dir\Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:queue C:\Users\Atul\ConsoleApp\Build\CMakeFiles\feature_tests.cxx
   
   feature_tests.cxx
 Link:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_c2702.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_c2702.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_c2702.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c2702.dir\Debug\feature_tests.obj
-  cmTC_c2702.vcxproj -> C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\Debug\cmTC_c2702.exe
-  cmTC_c2702.vcxproj -> C:/Users/Atul/Desktop/Transmax/15_July/Build/CMakeFiles/CMakeTmp/Debug/cmTC_c2702.pdb (Full PDB)
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_e2523.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_e2523.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_e2523.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e2523.dir\Debug\feature_tests.obj
+  cmTC_e2523.vcxproj -> C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\Debug\cmTC_e2523.exe
+  cmTC_e2523.vcxproj -> C:/Users/Atul/ConsoleApp/Build/CMakeFiles/CMakeTmp/Debug/cmTC_e2523.pdb (Full PDB)
 FinalizeBuildStatus:
-  Deleting file "cmTC_c2702.dir\Debug\cmTC_c2702.tlog\unsuccessfulbuild".
-  Touching "cmTC_c2702.dir\Debug\cmTC_c2702.tlog\cmTC_c2702.lastbuildstate".
-Done Building Project "C:\Users\Atul\Desktop\Transmax\15_July\Build\CMakeFiles\CMakeTmp\cmTC_c2702.vcxproj" (default targets).
+  Deleting file "cmTC_e2523.dir\Debug\cmTC_e2523.tlog\unsuccessfulbuild".
+  Touching "cmTC_e2523.dir\Debug\cmTC_e2523.tlog\cmTC_e2523.lastbuildstate".
+Done Building Project "C:\Users\Atul\ConsoleApp\Build\CMakeFiles\CMakeTmp\cmTC_e2523.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.72
+Time Elapsed 00:00:02.42
 
 
     Feature record: CXX_FEATURE:1cxx_alias_templates

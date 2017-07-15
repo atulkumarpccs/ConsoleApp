@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Atul/Desktop/Transmax/15_July/Build/app/cmake_install.cmake")
+  include("C:/Users/Atul/ConsoleApp/Build/app/cmake_install.cmake")
 
 endif()
 
@@ -41,5 +41,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Atul/Desktop/Transmax/15_July/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Atul/ConsoleApp/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

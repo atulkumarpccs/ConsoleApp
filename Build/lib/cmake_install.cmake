@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Atul/Desktop/Transmax/15_July/Build/lib/test/cmake_install.cmake")
+  include("C:/Users/Atul/ConsoleApp/Build/lib/test/cmake_install.cmake")
 
 endif()
 

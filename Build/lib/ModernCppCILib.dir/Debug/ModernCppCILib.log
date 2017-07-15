@@ -1,8 +1,0 @@
-﻿  Building Custom Rule C:/Users/Atul/Desktop/Transmax/15_July/lib/CMakeLists.txt
-  CMake does not need to re-run because C:\Users\Atul\Desktop\Transmax\15_July\Build\lib\CMakeFiles\generate.stamp is up-to-date.
-  calc.cpp
-c:\users\atul\desktop\transmax\15_july\lib\include\logger.h(12): fatal error C1083: Cannot open include file: 'spdlog/fmt/ostr.h': No such file or directory
-  calc_step.cpp
-  logger.cpp
-C:\Users\Atul\Desktop\Transmax\15_July\lib\include\logger.h(12): fatal error C1083: Cannot open include file: 'spdlog/fmt/ostr.h': No such file or directory
-  Generating Code...
