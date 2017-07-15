@@ -31,7 +31,7 @@ before_build:
 # build with MSBuild
 build:
  # project: Build\ModernCppCI.sln        # path to Visual Studio solution or project
-  project: C:\Users\Atul\ConsoleApp\Build\ModernCppCI.sln        # path to Visual Studio solution or project
+  project: Build\Console.sln            # path to Visual Studio solution or project
   parallel: true                        # enable MSBuild parallel builds
   verbosity: normal                     # MSBuild verbosity level {quiet|minimal|normal|detailed}
 
