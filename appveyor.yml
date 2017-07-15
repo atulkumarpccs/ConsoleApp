@@ -35,6 +35,7 @@ build:
   parallel: true                        # enable MSBuild parallel builds
   verbosity: normal                     # MSBuild verbosity level {quiet|minimal|normal|detailed}
 
-test_script:
-  - cd Build
-  - ctest -V -j 2 -C %CONFIGURATION%
+#Uncomment once after test setup is complte
+#test_script:
+#  - cd Build
+#  - ctest -V -j 2 -C %CONFIGURATION%
