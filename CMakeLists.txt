@@ -15,7 +15,7 @@ set (THREADS_PREFER_PTHREAD_FLAG ON)
 find_package (Threads REQUIRED)
 
 #add_subdirectory (third_party EXCLUDE_FROM_ALL)
-add_subdirectory (lib EXCLUDE_FROM_ALL)
+#add_subdirectory (lib EXCLUDE_FROM_ALL)
 add_subdirectory (app)
 
 #enable_testing ()
